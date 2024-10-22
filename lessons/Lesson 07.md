@@ -9,7 +9,7 @@ The `i2j` part is referencing the "Intro To Java" course name. It's useful to se
 Ironically, as stated before, FRC uses `frc.robot` for all package names. As far as I can tell, this package name reversal isn't actually a hard requirement for code design, but it is the industry standard and may lead to failures if not followed outside of an FRC context.
 
 ### Imports
-An `import` statement is how you reference a specific class. Because people can make the same class name in multiple packages, you need to tell Java which class you meant. This is what the import statement handles for you:
+An `import` statement is how you reference a specific class. Because people can make the same class name in multiple packages, you need to tell Java which class you meant. In an FRC context, you will frequently import files from the WPI Library and various vendors like CTRE, Rev, and KAUAILabs. This is what the import statement handles for you:
 
 ```java
 import package.name.Class;
@@ -22,7 +22,7 @@ You can also import all of the classes of a package:
 import package.name.*;
 ```
 
-A real case you've seen in your assignments will be the `Scanner` class:
+A real case commonly seen is the `Scanner` class:
 ```java
 import java.util.Scanner;
 ```

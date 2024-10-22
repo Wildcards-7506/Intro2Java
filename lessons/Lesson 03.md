@@ -235,7 +235,7 @@ Okay I'm back. Let's talk about strings. A string is just a collection of charac
 String message = "Hello World!";
 ```
 
-We've actually been using strings for a bit now in various assignments and lessons. It's very useful to use for printing text that a human will read, but I didn't want to get into the details of it until now. They are ubiquitous enough that they are very close to being a foundational building block, but they are NOT a primitive type.
+We've actually been using strings for a bit now in various lessons. It's very useful to use for printing text that a human will read, but I didn't want to get into the details of it until now. They are ubiquitous enough that they are very close to being a foundational building block, but they are NOT a primitive type.
 
 In the previous example, `String` is the name of the type. You'll notice that it has a capital first letter as opposed to all of the primitive types which are all lowercase. This is because classes are Pascal case. We'll go into both classes next lesson. `message` here is the variable name and then we have the initial value on the right of the equals sign, `Hello World!`.
 
@@ -306,4 +306,4 @@ This would print `My name is "Bob"` to the screen. The backslash `\` character i
 Fun fact, Markdown apparently also uses escape characters so that may look strange if you're looking at the Markdown source instead of a generated preview. There are also other escape characters that exist and some of those are really fun rabbit holes to find yourself in, but for now those are sufficient and useful to know.
 
 ## Conclusion
-We just went over a lot of content and it wasn't all cohesive. You should feel comfortable reviewing any sections you didn't fully understand or revisiting a section as you do assignments. As always, please feel free to ask questions in the discord.
+We just went over a lot of content and it wasn't all cohesive. You should feel comfortable reviewing any sections you didn't fully understand or revisiting a section as you do progress. As always, please feel free to ask questions of your mentors and eachother.

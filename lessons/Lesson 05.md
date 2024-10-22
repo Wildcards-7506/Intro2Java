@@ -3,7 +3,7 @@
 OOP opens up a lot of possibilities in how to organize your code. We're going to cover a few more things related to classes in this and the next lessons. They won't be directly related to each other, so treat each section as its own thing instead of treating it as flowing from one section to the next.
 
 ## Chaining constructors
-In the previous lesson we covered method overloading. Make sure to review that section if you're still a little rusty on it. While the constructor is a unique method in that it helps to insatiate a class, the same rules for method overloading actually apply here as well. Let's look at an example using the `Rational` class in assignment 06. We have three constructors:
+In the previous lesson we covered method overloading. Make sure to review that section if you're still a little rusty on it. While the constructor is a unique method in that it helps to insatiate a class, the same rules for method overloading actually apply here as well. Let's look at an example using a `Rational` class. We have three constructors:
 ```java
 class Rational {
 	public final int numerator;
@@ -128,7 +128,7 @@ Please note that static methods cannot access non-static fields or methods. This
 
 The opposite does work, however. You can call static methods or access static fields from an instance. It's just important to remember that they're shared by every instance of that class in your program. Any changes to static fields will remain until they're changed again or your program ends, even if your program doesn't have any instances of the class at all.
 ### Public Static Void Main (PSVM)
-FINALLY! After all this time, I can finally explain the Java code at the start of every assignment:
+You will see the following code in every Java project you will enounter.
 ```java
 class Main {
 	public static void main(String[] args) {
